@@ -13,5 +13,6 @@ deploy:
   skip_cleanup: true
   github_token: $github_token
   local_dir: out
+  fdqn: elbarae.me
   on:
     branch: master
