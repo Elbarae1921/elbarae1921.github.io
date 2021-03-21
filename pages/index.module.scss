@@ -1,0 +1,73 @@
+@import "variables";
+
+.main {
+    flex: 1;
+    padding: $padding-main;
+    @media only screen and (max-width: 500px) {
+        padding: $padding-small;
+    }
+    @media only screen and (min-width: 1800px) {
+        padding: $padding-big;
+    }
+    .text {
+        font-size: $font-size;
+        line-height: $line-height;
+        @media only screen and (max-width: 500px) {
+            font-size: $font-size-small;
+            line-height: $line-height-small;
+        }
+        @media only screen and (min-width: 1800px) {
+            font-size: $font-size-big;
+            line-height: $line-height-big;
+        }
+        .author {
+            font-size: $font-size + 5;
+            display: block;
+            margin: 5px;
+            @media only screen and (max-width: 500px) {
+                font-size: $font-size-small + 5;
+            }
+            @media only screen and (min-width: 1800px) {
+                font-size: $font-size-big + .5;
+            }
+            text-shadow: 0 0 10px #fff;
+        }
+    }
+}
+
+.table {
+    width: 60%;
+    margin: 15px 0;
+    @media only screen and (max-width: 700px) {
+        width: 100%;
+    }
+    @media only screen and (min-width: 1800px) {
+        margin: 2vw 0;
+    }
+    .tbody {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media only screen and (max-width: 680px) {
+            padding-right: 10px;
+        }
+        tr {
+            display: flex;
+        }
+    }
+    .tfoot {
+        text-align: center;
+    }
+}
+
+.social {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100px;
+    a {
+        transition: 500ms;
+        &:hover {
+            transform: rotateY(180deg)
+        }
+    }
+}

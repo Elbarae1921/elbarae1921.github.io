@@ -1,0 +1,49 @@
+@import "../pages/variables";
+
+.navbar {
+    height: $navbar-height;
+    display: flex;
+    justify-content: space-between;
+    padding: $navbar-padding;
+    margin: $navbar-margin;
+    border: 2px solid #919090;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    @media only screen and (max-width: 500px) {
+        padding: $navbar-padding-small;
+        height: $navbar-height-small;
+    }
+    @media only screen and (min-width: 1800px) {
+        height: $navbar-height-big;
+        padding: $navbar-padding-big;
+        margin: $navbar-margin-big;
+    }
+    .logo {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        img {
+            height: 80%;
+        }
+    }
+    .menu {
+        width: $navbar-menu-width;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: $font-size;
+        @media only screen and (max-width: 500px) {
+            width: $navbar-menu-width - 40;
+            font-size: $font-size-small;
+        }
+        @media only screen and (min-width: 1800px) {
+            font-size: $font-size-big;
+            width: $navbar-menu-width-big;
+        }
+        a {
+            transition: 500ms;
+            &:hover {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+            }
+        }
+    }
+}
