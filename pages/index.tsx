@@ -89,7 +89,7 @@ export default function Home() {
                             </tr>
                         </tfoot>
                     </table>
-                    Find me elsewhere: <div className={styles.social}> <a rel="author" target="_blank" aria-label="github" href="#"><i title="Github" className="icon-github"></i></a> <a rel="author" target="_blank" aria-label="Linkedin" href="#"><i title="Linkedin" className="icon-linkedin"></i></a> <a rel="author" target="_blank" aria-label="Email" href="#"><i title="Email" className="icon-envelope"></i></a> </div>
+                    Find me elsewhere: <div className={styles.social}> <a rel="author" target="_blank" aria-label="github" href="https://github.com/Elbarae1921"><i title="Github" className="icon-github"></i></a> <a rel="author" target="_blank" aria-label="Linkedin" href="https://www.linkedin.com/in/elbarae-rguig/"><i title="Linkedin" className="icon-linkedin"></i></a> <a rel="author" target="_blank" aria-label="Email" href="mailto:elbarae1921@gmail.com"><i title="Email" className="icon-envelope"></i></a> </div>
                 </div>
             </div>
         </div>
