@@ -69,12 +69,12 @@ export default function Home() {
                                 </ul>
                                 <ul>
                                     <li>PostgreSQL</li>
-                                    <li>React</li>
+                                    <li>Nginx</li>
                                 </ul>
                             </tr>
                             <tr>
                                 <ul>
-                                    <li>Nginx</li>
+                                    <li>React</li>
                                     <li>React Native</li>
                                 </ul>
                                 <ul>
